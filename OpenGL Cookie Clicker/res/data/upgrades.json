@@ -1,0 +1,7045 @@
+{
+
+	"upgrades": [
+
+		{
+
+			"id": 0,
+			"name": "Reinforced index finger",
+			"cost": 100,
+
+			"description": {
+
+				"main": "The mouse and cursors are twice as efficient.",
+				"lore": "\"prod prod\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 1,
+			"name": "Carpal tunnel prevention cream",
+			"cost": 500,
+
+			"description": {
+
+				"main": "The mouse and cursors are twice as efficient.",
+				"lore": "\"it... it hurts to click...\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 2,
+			"name": "Ambidextrous",
+			"cost": 10000,
+
+			"description": {
+
+				"main": "The mouse and cursors are twice as efficient.",
+				"lore": "\"Look ma, both hands!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 10
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 3,
+			"name": "Thousand fingers",
+			"cost": 1000000,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +0.1 cookies for each non-cursor object owned.",
+				"lore": "\"clickity\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 4,
+			"name": "Million fingers",
+			"cost": 1e7,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +0.5 cookies for each non-cursor object owned.",
+				"lore": "\"clickityclickity\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 5,
+			"name": "Billion fingers",
+			"cost": 1e8,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +5 cookies for each non-cursor object owned.",
+				"lore": "\"clickityclickityclickity\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 6,
+			"name": "Trillion fingers",
+			"cost": 1e9,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +50 cookies for each non-cursor object owned.",
+				"lore": "\"clickityclickityclickityclickity\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 43,
+			"name": "Quadrillion fingers",
+			"cost": 1e10,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +500 cookies for each non-cursor object owned.",
+				"lore": "\"clickityclickityclickityclickityclick\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 82,
+			"name": "Quintillion fingers",
+			"cost": 1e13,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +5,000 cookies for each non-cursor object owned.",
+				"lore": "\"man, just go click click click click click, it's real easy, man.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 109,
+			"name": "Sextillion fingers",
+			"cost": 1e16,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +50,000 cookies for each non-cursor object owned.",
+				"lore": "\"sometimes things just click\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 188,
+			"name": "Septillion fingers",
+			"cost": 1e19,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +500,000 cookies for each non-cursor object owned.",
+				"lore": "\"[cursory flavor text]\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 189,
+			"name": "Octillion fingers",
+			"cost": 10e21,
+
+			"description": {
+
+				"main": "The mouse and cursors gain +5 million cookies for each non-cursor object owned.",
+				"lore": "\"Turns out you can quite put your finger on it.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 0,
+				"y": 30
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 0,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 7,
+			"name": "Forwards from grandma",
+			"cost": 1000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"RE:RE:thought you'd get a kick out of this ;))\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 8,
+			"name": "Steel-plated rolling pins",
+			"cost": 5000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Just what you kneaded.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 9,
+			"name": "Lubricated dentures",
+			"cost": 50000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"squish\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 44,
+			"name": "Prune juice",
+			"cost": 5000000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Gets me going.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 110,
+			"name": "Double-thick glasses",
+			"cost": 5e8,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Oh... so THAT's what I've been baking.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 192,
+			"name": "Aging agents",
+			"cost": 5e10,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Counter-intuitively, grandmas have the uncanny ability to become more powerful the older they get.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 294,
+			"name": "Xtreme walkers",
+			"cost": 5e13,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Complete with flame decals and a little horn that goes \"toot\".\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 307,
+			"name": "The Unbridling",
+			"cost": 5e16,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"It might be a classic tale of bad parenting, but let's see where grandma is going with this.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 428,
+			"name": "Reverse dementia",
+			"cost": 50e18,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Extremely unsettling, and somehow even worse than the regular kind.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 1,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 480,
+			"name": "Timeproof hair dyes",
+			"cost": 50e21,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Why do they always have those strange wispy pink dos? What do they know about candy floss that we don't?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 506,
+			"name": "Good manners",
+			"cost": 500e24,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient.",
+				"lore": "\"Apparently these ladies are much more amiable if you take the time to learn their strange, ancient customs, which seem to involve saying \"please\" and \"thank you\" and staring at the sun with bulging eyes while muttering eldritch curses under your breath.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 1,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 10,
+			"name": "Cheap hoes",
+			"cost": 11000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"Rake in the dough!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 11,
+			"name": "Fertilizer",
+			"cost": 55000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"It's chocolate, I swear.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 12,
+			"name": "Cookie trees",
+			"cost": 550000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"A relative of the breadfruit.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 45,
+			"name": "Genetically-modified cookies",
+			"cost": 55000000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"All-natural mutations.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 111,
+			"name": "Gingerbread scarecrows",
+			"cost": 5500000000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"Staring at your crops with mischievous glee.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 193,
+			"name": "Pulsar sprinklers",
+			"cost": 55000000000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"There's no such thing as over-watering. The moistest is the bestest.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 295,
+			"name": "Fudge fungus",
+			"cost": 550000000000000,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"A sugary parasite whose tendrils help cookie growth. Please do not breathe in the spores. In case of spore ingestion, seek medical help within the next 36 seconds.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 308,
+			"name": "Wheat triffids",
+			"cost": 550e15,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"Taking care of crops is so much easier when your plants can just walk about and help around the farm. Do not pet. Do not feed. Do not attempt to converse with.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 429,
+			"name": "Humane pesticides",
+			"cost": 550e18,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"Made by people, for people, from people and ready to unleash some righteous scorching pain on those pesky insects that so deserve it.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 481,
+			"name": "Barnstars",
+			"cost": 550e21,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"Ah, yes. These help quite a bit. Somehow.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 507,
+			"name": "Lindworms",
+			"cost": 5.5e27,
+
+			"description": {
+
+				"main": "Farms are twice as efficient.",
+				"lore": "\"You have to import these from far up north, but they really help areate the soil!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 16,
+			"name": "Sugar gas",
+			"cost": 120000,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"A pink, volatile gas, found in the depths of some chocolate caves.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 17,
+			"name": "Megadrill",
+			"cost": 600000,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"You're in deep.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 18,
+			"name": "Ultradrill",
+			"cost": 6000000,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"Finally caved in?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 47,
+			"name": "Ultimadrill",
+			"cost": 600000000,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"Pierce the heavens, etc.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 113,
+			"name": "H-bomb mining ",
+			"cost": 60e9,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"Questionable efficiency, but spectacular nonetheless.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 195,
+			"name": "Coreforge",
+			"cost": 6e12,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"You've finally dug a tunnel down to the Earth's core. It's pretty warm down here.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 296,
+			"name": "Planetsplitters",
+			"cost": 6e15,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"These new state-of-the-art excavators have been tested on Merula, Globort and Flwanza VI, among other distant planets which have been curiously quiet lately.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 309,
+			"name": "Canola oil wells",
+			"cost": 6e18,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"A previously untapped resource, canola oil permeates the underground olifers which grant it its particular taste and lucrative properties.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 430,
+			"name": "Mole people",
+			"cost": 6e21,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"Engineered from real human beings within your very labs, these sturdy little folks have a knack for finding the tastiest underground minerals in conditions that more expensive machinery probably wouldn't survive.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 482,
+			"name": "Mine canaries",
+			"cost": 6e24,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"These aren't used for anything freaky! The miners just enjoy having a pet or two down there.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 508,
+			"name": "Bore again",
+			"cost": 60e27,
+
+			"description": {
+
+				"main": "Mines are twice as efficient.",
+				"lore": "\"After extracting so much sediment for so long, you've formed some veritable mountains of your own from the accumulated piles of rock and dirt. Time to dig through those and see if you find anything fun!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 13,
+			"name": "Sturdier conveyor belts",
+			"cost": 1300000,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"You're going places.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 14,
+			"name": "Child labor",
+			"cost": 6500000,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Cheaper, healthier workforce.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 15,
+			"name": "Sweatshop",
+			"cost": 65000000,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Slackers will be terminated.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 46,
+			"name": "Radium reactors",
+			"cost": 6.5e9,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Gives your cookies a healthy glow.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 112,
+			"name": "Recombobulators",
+			"cost": 650e9,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"A major part of cookie recombobulation.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 194,
+			"name": "Deep-bake process",
+			"cost": 65e12,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"A patented process increasing cookie yield two-fold for the same amount of ingredients. Don't ask how, don't take pictures, and be sure to wear your protective suit.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 297,
+			"name": "Cyborg workforce",
+			"cost": 65e15,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Semi-synthetic organisms don't slack off, don't unionize, and have 20% shorter lunch breaks, making them ideal labor fodder.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 310,
+			"name": "78-hour days",
+			"cost": 65e18,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Why didn't we think of this earlier?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 431,
+			"name": "Machine learning",
+			"cost": 65e21,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"You figured you might get better productivity if you actually told your workers to learn how to work the machines. Sometimes, it's the little things...\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 483,
+			"name": "Brownie point system",
+			"cost": 65e24,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"Oh, these are lovely! You can now reward your factory employees for good behavior, such as working overtime or snitching on coworkers. 58 brownie points gets you a little picture of a brownie, and 178 of those pictures gets you an actual brownie piece for you to do with as you please! Infantilizing? Maybe. Oodles of fun? You betcha!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 509,
+			"name": "\"Volunteer\" interns ",
+			"cost": 650e27,
+
+			"description": {
+
+				"main": "Factories are twice as efficient.",
+				"lore": "\"If you're bad at something, always do it for free.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 232,
+			"name": "Taller tellers",
+			"cost": 14000000,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"Able to process a higher amount of transactions. Careful though, as taller tellers tell tall tales.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 233,
+			"name": "Scissor-resistant credit cards ",
+			"cost": 70000000,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"For those truly valued customers.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 234,
+			"name": "Acid-proof vaults",
+			"cost": 700000000,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"You know what they say : better safe than sorry.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 235,
+			"name": "Chocolate coins",
+			"cost": 70e9,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"This revolutionary currency is much easier to melt from and into ingots - and tastes much better, for a change.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 236,
+			"name": "Exponential interest rates",
+			"cost": 7e12,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"Can't argue with mathematics! Now fork it over.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 237,
+			"name": "Financial zen",
+			"cost": 700e12,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"The ultimate grail of economic thought; the feng shui of big money, the stock market yoga - the Heimlich maneuver of dimes and nickels.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 298,
+			"name": "Way of the wallet",
+			"cost": 700e15,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"This new monetary school of thought is all the rage on the banking scene; follow its precepts and you may just profit from it.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 311,
+			"name": "The stuff rationale",
+			"cost": 700e18,
+
+			"description": {
+
+				"main": "",
+				"lore": "\"If not now, when? If not it, what? If not things... stuff?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 432,
+			"name": "Edible money",
+			"cost": 700e21,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"It's really quite simple; you make all currency too delicious not to eat, solving world hunger and inflation in one fell swoop!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 484,
+			"name": "Grand supercycle",
+			"cost": 700e24,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"We let the public think these are complicated financial terms when really we're just rewarding the bankers with snazzy bicycles for a job well done. It's only natural after you built those fancy gold swimming pools for them, where they can take a dip and catch Kondratiev waves.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 510,
+			"name": "Rules of acquisition",
+			"cost": 7e30,
+
+			"description": {
+
+				"main": "Banks are twice as efficient.",
+				"lore": "\"Rule 387 : a cookie baked is a cookie kept.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 238,
+			"name": "Golden idols",
+			"cost": 200e6,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"Lure even greedier adventurers to retrieve your cookies. Now that's a real idol game!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 239,
+			"name": "Sacrifices",
+			"cost": 1e9,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"What's a life to a gigaton of cookies?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 240,
+			"name": "Delicious blessing",
+			"cost": 10e9,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"And lo, the Baker's almighty spoon came down and distributed holy gifts unto the believers - shimmering sugar, and chocolate dark as night, and all manner of wheats. And boy let me tell you, that party was mighty gnarly.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 241,
+			"name": "Sun festival",
+			"cost": 1e12,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"Free the primordial powers of your temples with these annual celebrations involving fire-breathers, traditional dancing, ritual beheadings and other merriments!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 242,
+			"name": "Enlarged pantheon",
+			"cost": 100e12,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"Enough spiritual inadequacy! More divinities than you'll ever need, or your money back! 100% guaranteed!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 243,
+			"name": "Great Baker in the sky",
+			"cost": 10e15,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"This is it. The ultimate deity has finally cast Their sublimely divine eye upon your operation; whether this is a good thing or possibly the end of days is something you should find out very soon.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 299,
+			"name": "Creation myth",
+			"cost": 10e18,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"Stories have been circulating about the origins of the very first cookie that was ever baked; tales of how it all began, in the Dough beyond time and the Ovens of destiny.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 312,
+			"name": "Theocracy",
+			"cost": 10e21,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"You've turned your cookie empire into a perfect theocracy, gathering the adoration of zillions of followers from every corner of the universe. Don't let it go to your head.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 433,
+			"name": "Sick rap prayers",
+			"cost": 10e24,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"With their ill beat and radical rhymes, these way-hip religious tunes are sure to get all the youngins who thought they were 2 cool 4 church back on the pews and praying for more! Wicked!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 485,
+			"name": "Psalm-reading",
+			"cost": 0,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"A theologically dubious and possibly blasphemous blend of fortune-telling and scripture studies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 511,
+			"name": "War of the gods",
+			"cost": 100e30,
+
+			"description": {
+
+				"main": "Temples are twice as efficient.",
+				"lore": "\"An interesting game; the only winning move is not to pray.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 244,
+			"name": "Pointier hats",
+			"cost": 3.3e9,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Tests have shown increased thaumic receptivity relative to the geometric proportions of wizardly conic implements.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 245,
+			"name": "Beardlier beards",
+			"cost": 16.5e9,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Haven't you heard? The beard is the word.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 246,
+			"name": "Ancient grimoires",
+			"cost": 165e9,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Contain interesting spells such as \"Turn Water To Drool\", \"Grow Eyebrows On Furniture\" and \"Summon Politician\".\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 247,
+			"name": "Kitchen curses",
+			"cost": 16.5e12,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Exotic magic involved in all things pastry-related. Hexcellent!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 248,
+			"name": "School of sorcery",
+			"cost": 1.65e15,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"This cookie-funded academy of witchcraft is home to the 4 prestigious houses of magic : the Jocks, the Nerds, the Preps, and the Deathmunchers.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 249,
+			"name": "Dark formulas",
+			"cost": 165e15,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Eldritch forces are at work behind these spells - you get the feeling you really shouldn't be messing with those. But I mean, free cookies, right?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 300,
+			"name": "Cookiemancy",
+			"cost": 165e18,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"There it is; the perfected school of baking magic. From summoning chips to hexing nuts, there is not a single part of cookie-making that hasn't been improved tenfold by magic tricks.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 313,
+			"name": "Rabbit trick",
+			"cost": 165e21,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Using nothing more than a fancy top hat, your wizards have found a way to simultaneously curb rabbit population and produce heaps of extra cookies for basically free! Resulting cookies may or may not be fit for vegans.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 434,
+			"name": "Deluxe tailored wands",
+			"cost": 165e24,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"In this age of science, most skillful wand-makers are now long gone; but thankfully - not all those wanders are lost.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 486,
+			"name": "Immobile spellcasting",
+			"cost": 165e27,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Wizards who master this skill can now cast spells without having to hop and skip and gesticulate embarrassingly, which is much sneakier and honestly quite a relief.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 512,
+			"name": "Electricity",
+			"cost": 1.65e33,
+
+			"description": {
+
+				"main": "Wizard towers are twice as efficient.",
+				"lore": "\"Ancient magicks and forbidden hexes shroud this arcane knowledge, whose unfathomable power can mysteriously turn darkness into light and shock an elephant to death.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 19,
+			"name": "Vanilla nebulae",
+			"cost": 51e9,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"If you removed your space helmet, you could probably smell it! (Note : don't do that.)\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 20,
+			"name": "Wormholes",
+			"cost": 255e9,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"By using these as shortcuts, your ships can travel much faster.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 21,
+			"name": "Frequent flyer",
+			"cost": 2.55e12,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"Come back soon!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 48,
+			"name": "Warp drive",
+			"cost": 255e12,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"To boldly bake.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 114,
+			"name": "Chocolate monoliths",
+			"cost": 25.5e15,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"My god. It's full of chocolate bars.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 196,
+			"name": "Generation ship",
+			"cost": 2.55e18,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"Built to last, this humongous spacecraft will surely deliver your cookies to the deep ends of space, one day.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 301,
+			"name": "Dyson sphere",
+			"cost": 2.55e21,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"You've found a way to apply your knowledge of cosmic technology to slightly more local endeavors; this gigantic sphere of meta-materials, wrapping the solar system, is sure to kick your baking abilities up a notch.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 314,
+			"name": "The final frontier",
+			"cost": 2.55e24,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"It's been a long road, getting from there to here. It's all worth it though - the sights are lovely and the oil prices slightly more reasonable.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 435,
+			"name": "Autopilot",
+			"cost": 2.55e27,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"Your ships are now fitted with completely robotic crews! It's crazy how much money you save when you don't have to compensate the families of those lost in space.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 487,
+			"name": "Restaurants at the end of the universe",
+			"cost": 2.55e30,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"Since the universe is spatially infinite, and therefore can be construed to have infinite ends, you've opened an infinite chain of restaurants where your space truckers can rest and partake in some home-brand cookie-based meals.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 513,
+			"name": "Universal alphabet",
+			"cost": 25.5e33,
+
+			"description": {
+
+				"main": "Shipments are twice as efficient.",
+				"lore": "\"You've managed to chart a language that can be understood by any sentient species in the galaxy; its exciting vocabulary contains over 56 trillion words that sound and look like sparkly burps, forming intricate sentences that usually translate to something like \"give us your cookies, or else\".\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 22,
+			"name": "Antimony",
+			"cost": 750e9,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Actually worth a lot of mony.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 23,
+			"name": "Essence of dough",
+			"cost": 3.75e12,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Extracted through the 5 ancient steps of alchemical baking.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 24,
+			"name": "True chocolate",
+			"cost": 37.5e12,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"The purest form of cacao.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 49,
+			"name": "Ambrosia",
+			"cost": 3.75e15,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Adding this to the cookie mix is sure to make them even more addictive! Perhaps dangerously so. Let's hope you can keep selling these legally.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 115,
+			"name": "Aqua crustulae",
+			"cost": 375e15,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Careful with the dosing - one drop too much and you get muffins. And nobody likes muffins.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 197,
+			"name": "Aqua crustulae",
+			"cost": 37.5e18,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Built from the rarest of earths and located at the very deepest of the largest mountain, this legendary crucible is said to retain properties from the big-bang itself.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 302,
+			"name": "Theory of atomic fluidity",
+			"cost": 37.5e21,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Pushing alchemy to its most extreme limits, you find that everything is transmutable into anything else - lead to gold, mercury to water; more importantly, you realize that anything can -and should- be converted to cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 315,
+			"name": "Beige goo",
+			"cost": 37.5e24,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Well now you've done it. Good job. Very nice. That's 3 galaxies you've just converted into cookies. Good thing you can hop from universe to universe.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 436,
+			"name": "The advent of chemistry",
+			"cost": 37.5e27,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"You know what? That whole alchemy nonsense was a load of baseless rubbish. Dear god, what were you thinking?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 488,
+			"name": "On second thought",
+			"cost": 37.5e30,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Disregard that last upgrade, alchemy is where it's at! Your eggheads just found a way to transmute children's nightmares into rare metals!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 514,
+			"name": "Public betterment",
+			"cost": 375e33,
+
+			"description": {
+
+				"main": "Alchemy labs are twice as efficient.",
+				"lore": "\"Why do we keep trying to change useless matter into cookies, or cookies into even better cookies? Clearly, the way of the future is to change the people who eat the cookies into people with a greater understanding, appreciation and respect for the cookies they're eating. Into the vat you go!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 25,
+			"name": "Ancient tablet",
+			"cost": 10e12,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"A strange slab of peanut brittle, holding an ancient cookie recipe. Neat!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 26,
+			"name": "Insane oatling workers",
+			"cost": 50e12,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"ARISE, MY MINIONS!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 27,
+			"name": "Soul bond",
+			"cost": 500e12,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"So I just sign up and get more cookies? Sure, whatever!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 50,
+			"name": "Sanity dance",
+			"cost": 50e15,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"We can change if we want to. We can leave our brains behind.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 116,
+			"name": "Brane transplant ",
+			"cost": 5e18,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"This refers to the practice of merging higher dimensional universes, or \"branes\", with our own, in order to facilitate transit (and harvesting of precious cookie dough).\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 198,
+			"name": "Deity-sized portals ",
+			"cost": 500e18,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"It's almost like, say, an elder god could fit through this thing now. Hypothetically.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 303,
+			"name": "End of times back-up plan",
+			"cost": 500e21,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"Just in case, alright?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 316,
+			"name": "Maddening chants",
+			"cost": 500e24,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"A popular verse goes like so : \"jau'hn madden jau'hn madden aeiouaeiouaeiou brbrbrbrbrbrbr\"\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 437,
+			"name": "The real world",
+			"cost": 500e27,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"It turns out that our universe is actually the twisted dimension of another, saner plane of reality. Time to hop on over there and loot the place!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 489,
+			"name": "Dimensional garbage gulper",
+			"cost": 500e30,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"So we've been looking for a place to dispose of all the refuse that's been accumulating since we started baking - burnt cookies, failed experiments, unruly workers - and well, we figured rather than sell it to poor countries like we've been doing, we could just dump it in some alternate trash dimension where it's not gonna bother anybody! Probably!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 515,
+			"name": "Embedded microportals",
+			"cost": 5e36,
+
+			"description": {
+
+				"main": "Portals are twice as efficient.",
+				"lore": "\"We've found out that if we bake the portals into the cookies themselves, we can transport people's taste buds straight into the taste dimension! Good thing your army of lawyers got rid of the FDA a while ago!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 28,
+			"name": "Flux capacitors",
+			"cost": 140e12,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"Bake to the future.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 29,
+			"name": "Time paradox resolver",
+			"cost": 700e12,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"No more fooling around with your own grandmother!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 30,
+			"name": "Quantum conundrum",
+			"cost": 7e15,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"There is only one constant, and that is universal uncertainty. Or is it?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 51,
+			"name": "Causality enforcer",
+			"cost": 700e15,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"What happened, happened.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 117,
+			"name": "Yestermorrow comparators",
+			"cost": 70e18,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"Fortnights into milleniums.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 199,
+			"name": "Far future enactment",
+			"cost": 7e21,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"The far future enactment authorizes you to delve deep into the future - where civilization has fallen and risen again, and cookies are plentiful.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 304,
+			"name": "Great loop hypothesis",
+			"cost": 7e24,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"What if our universe is just one instance of an infinite cycle? What if, before and after it, stretched infinite amounts of the same universe, themselves containing infinite amounts of cookies?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 317,
+			"name": "Cookietopian moments of maybe",
+			"cost": 7e27,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"Reminiscing how things could have been, should have been, will have been.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 438,
+			"name": "Second seconds",
+			"cost": 7e30,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"That's twice as many seconds in the same amount of time! What a deal! Also, what in god's name!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 490,
+			"name": "Additional clock hands",
+			"cost": 7e33,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"It seemed like a silly idea at first, but it turns out these have the strange ability to twist time in interesting new ways.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 516,
+			"name": "Nostalgia",
+			"cost": 70e36,
+
+			"description": {
+
+				"main": "Time machines are twice as efficient.",
+				"lore": "\"Your time machine technicians insist that this is some advanced new time travel tech, and not just an existing emotion universal to mankind. Either way, you have to admit that selling people the same old cookies just because it reminds them of the good old times is an interesting prospect.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 99,
+			"name": "Sugar bosons",
+			"cost": 1.7e15,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"Sweet firm bosons.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 100,
+			"name": "String theory",
+			"cost": 8.5e15,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"Reveals new insight about the true meaning of baking cookies (and, as a bonus, the structure of the universe).\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 101,
+			"name": "Large macaron collider",
+			"cost": 85e15,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"How singular!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 102,
+			"name": "Big bang bake",
+			"cost": 8.5e18,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"And that's how it all began.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 118,
+			"name": "Reverse cyclotrons",
+			"cost": 850e18,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"These can uncollision particles and unspin atoms. For... uh... better flavor, and stuff.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 200,
+			"name": "Nanocosmics",
+			"cost": 85e21,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"The theory of nanocosmics posits that each subatomic particle is in fact its own self-contained universe, holding unfathomable amounts of energy.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 305,
+			"name": "The Pulse",
+			"cost": 85e24,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"You've tapped into the very pulse of the cosmos, a timeless rhythm along which every material and antimaterial thing beats in unison. This, somehow, means more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 318,
+			"name": "Some other super-tiny fundamental particle? Probably?",
+			"cost": 85e27,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"When even the universe is running out of ideas, that's when you know you're nearing the end.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 439,
+			"name": "Quantum comb",
+			"cost": 85e30,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"Quantum entanglement is one of those things that are so annoying to explain that we might honestly be better off without it. This is finally possible thanks to the quantum comb!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 491,
+			"name": "Baking Nobel prize",
+			"cost": 85e33,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"What better way to sponsor scientific growth than to motivate those smarmy nerds with a meaningless award! What's more, each prize comes with a fine print lifelong exclusive contract to come work for you (or else)!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 517,
+			"name": "The definite molecule",
+			"cost": 850e36,
+
+			"description": {
+
+				"main": "Antimatter condensers are twice as efficient.",
+				"lore": "\"Your scientists have found a way to pack a cookie into one single continuous molecule, opening exciting new prospects in both storage and flavor despite the fact that these take up to a whole year to digest.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 175,
+			"name": "Gem polish",
+			"cost": 21e15,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Get rid of the grime and let more light in. Truly, truly outrageous.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 176,
+			"name": "9th color",
+			"cost": 105e15,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Delve into the untouched optical depths where even the mantis shrimp hasn't set an eye!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 177,
+			"name": "Chocolate light",
+			"cost": 1.05e18,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Bask into its cocoalesence. (Warning : may cause various interesting albeit deadly skin conditions.)\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 178,
+			"name": "Grainbow",
+			"cost": 105e18,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Remember the different grains using the handy Roy G. Biv mnemonic : R is for rice, O is for Oats... uh, B for barley?...\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 179,
+			"name": "Pure cosmic light",
+			"cost": 10.5e21,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Your prisms now receive pristine unadulterated photons from the other end of the universe.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 201,
+			"name": "Glow-in-the-dark",
+			"cost": 1.05e24,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Your prisms now glow in the dark, effectively doubling their output.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 306,
+			"name": "Lux sanctorum",
+			"cost": 1.05e27,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Your prism attendants have become increasingly mesmerized with something in the light - or maybe something beyond it; beyond us all, perhaps?\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 319,
+			"name": "Reverse shadows",
+			"cost": 1.05e30,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Oh man, this is really messing with your eyes.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 440,
+			"name": "Crystal mirrors",
+			"cost": 1.05e33,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"Designed to filter more light back into your prisms, reaching levels of brightness that reality itself had never planned for.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 492,
+			"name": "Reverse theory of light",
+			"cost": 1.05e36,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"A whole new world of physics opens up when you decide that antiphotons are real and posit that light is merely a void in shadow.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 518,
+			"name": "Light capture measures",
+			"cost": 10.5e39,
+
+			"description": {
+
+				"main": "Prisms are twice as efficient.",
+				"lore": "\"As the universe gets ever so slightly dimmer due to you converting more and more of its light into cookies, you've taken to finding new and unexplored sources of light for your prisms; for instance, the warm glow emitted by a pregnant woman, or the twinkle in the eye of a hopeful child.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 416,
+			"name": "Your lucky cookie",
+			"cost": 260e15,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"This is the first cookie you've ever baked. It holds a deep sentimental value and, after all this time, an interesting smell.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 0
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 417,
+			"name": "\"All Bets Are Off\" magic coin ",
+			"cost": 1.3e18,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"A coin that always lands on the other side when flipped. Not heads, not tails, not the edge. The other side.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 1
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 5
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 418,
+			"name": "Winning lottery ticket",
+			"cost": 13e18,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"What lottery? THE lottery, that's what lottery! Only lottery that matters!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 2
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 25
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 419,
+			"name": "Four-leaf clover field",
+			"cost": 1.3e21,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"No giant monsters here, just a whole lot of lucky grass.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 13
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 50
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 420,
+			"name": "A recipe book about books",
+			"cost": 130e21,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"Tip the scales in your favor with 28 creative new ways to cook the book\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 14
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 100
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 421,
+			"name": "Leprechaun village",
+			"cost": 13e24,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"You've finally become accepted among the local leprechauns, who lend you their mythical luck as a sign of friendship (as well as some rather foul-tasting tea).\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 15
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 150
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 422,
+			"name": "Improbability drive",
+			"cost": 13e27,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"A strange engine that turns statistics on their head. Recommended by the Grandmother's Guide to the Bakery.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 16
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 200
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 423,
+			"name": "Antisuperstistronics",
+			"cost": 13e30,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"An exciting new field of research that makes unlucky things lucky. No mirror unbroken, no ladder unwalked under!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 17
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 250
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 441,
+			"name": "Bunnypedes",
+			"cost": 13e33,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"You've taken to breeding rabbits with hundreds of paws, which makes them intrinsically very lucky and thus a very handy (if very disturbing) pet.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 18
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 300
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 493,
+			"name": "Revised probabilistics",
+			"cost": 13e36,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"Either something happens or it doesn't. That's a 50% chance! This suddenly makes a lot of unlikely things very possible.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 19
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 350
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 519,
+			"name": "0-sided dice",
+			"cost": 130e39,
+
+			"description": {
+
+				"main": "Chancemakers are twice as efficient.",
+				"lore": "\"The advent of the 0-sided dice has had unexpected and tumultuous effects on the gambling community, and saw experts around the world calling you both a genius and an imbecile.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 28
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 400
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 57,
+			"name": "Farmer grandmas",
+			"cost": 55000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Farms gain +1% CpS per grandma.",
+				"lore": "\"A nice farmer to grow more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 58,
+			"name": "Miner grandmas",
+			"cost": 600000,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Mines gain +1% CpS per 2 grandmas.",
+				"lore": "\"A nice miner to dig more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 59,
+			"name": "Worker grandmas",
+			"cost": 6.5e6,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Factories gain +1% CpS per 3 grandmas.",
+				"lore": "\"A nice worker to manufacture more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 250,
+			"name": "Banker Grandmas",
+			"cost": 70e6,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Banks gain +1% CpS per 4 grandmas",
+				"lore": "\"A nice banker to cash in more cookies\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 251,
+			"name": "Priestess Grandmas",
+			"cost": 1e9,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Temples gain +1% CpS per 5 grandmas.",
+				"lore": "\"A nice priestess to praise the great Baker in the sky.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 252,
+			"name": "Witch grandmas",
+			"cost": 16.5e9,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Wizard towers gain +1% CpS per 6 grandmas.",
+				"lore": "\"A nice witch to cast a zip, and a zoop, and poof! Cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 60,
+			"name": "Cosmic grandmas",
+			"cost": 255e9,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Shipments gain +1% CpS per 7 grandmas.",
+				"lore": "\"A nice thing to... uh... cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 61,
+			"name": "Transmuted grandmas",
+			"cost": 3.75e12,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Alchemy labs gain +1% CpS per 8 grandmas.",
+				"lore": "\"A nice golden grandma to convert into more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 62,
+			"name": "Altered grandmas",
+			"cost": 50e12,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Portals gain +1% CpS per 9 grandmas.",
+				"lore": "\"a NiCe GrAnDmA tO bA##########\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 10,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 63,
+			"name": "Grandmas' grandmas",
+			"cost": 700e12,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Time machines gain +1% CpS per 10 grandmas.",
+				"lore": "\"A nice grandma's nice grandma to bake double the cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 11,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 103,
+			"name": "Antigrandmas",
+			"cost": 8.5e15,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Antimatter condensers gain +1% CpS per 11 grandmas.",
+				"lore": "\"A mean antigrandma to vomit more cookies. (Do not put in contact with normal grandmas; loss of matter may occur.)\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 180,
+			"name": "Rainbow grandmas",
+			"cost": 105e15,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Prisms gain +1% CpS per 12 grandmas.",
+				"lore": "\"A luminous grandma to sparkle into cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 415,
+			"name": "Lucky grandmas",
+			"cost": 1.3e18,
+
+			"description": {
+
+				"main": "Grandmas are twice as efficient. Chancemakers gain +1% CpS per 13 grandmas.",
+				"lore": "\"A fortunate grandma that always seems to find more cookies.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 10,
+				"y": 9
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 14,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 1
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 369,
+			"name": "Future almanacs",
+			"cost": 28e15,
+
+			"description": {
+
+				"main": "Farms gain +5% CpS per time machine. Time machines gain +0.1% CpS per farm.",
+				"lore": "\"Lets you predict optimal planting times. It's crazy what time travel can do!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 1,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 370,
+			"name": "Rain prayer",
+			"cost": 40.022e15,
+
+			"description": {
+
+				"main": "Farms gain +5% CpS per temple. Temples gain +0.1% CpS per farm.",
+				"lore": "\"A deeply spiritual ceremonial involving complicated dance moves and high-tech cloud-busting lasers.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 2,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 6,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 371,
+			"name": "Seismic magic",
+			"cost": 660.24e9,
+
+			"description": {
+
+				"main": "Mines gain +5% CpS per wizard tower. Wizard towers gain +0.1% CpS per mine.",
+				"lore": "\"Surprise earthquakes are an old favorite of wizardly frat houses.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 7,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 372,
+			"name": "Asteroid mining",
+			"cost": 10.2e18,
+
+			"description": {
+
+				"main": "Mines gain +5% CpS per shipment. Shipments gain +0.1% CpS per mine.",
+				"lore": "\"As per the 1974 United Cosmic Convention, comets, moons, and inhabited planetoids are no longer legally excavatable. But hey, a space bribe goes a long way.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 3,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 8,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 373,
+			"name": "Quantum electronics",
+			"cost": 340e15,
+
+			"description": {
+
+				"main": "Factories gain +5% CpS per antimatter condenser. Antimatter condensers gain +0.1% CpS per factory.",
+				"lore": "\"Your machines won't even be sure if they're on or off!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 12,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 374,
+			"name": "Temporal overclocking",
+			"cost": 28e21,
+
+			"description": {
+
+				"main": "Factories gain +5% CpS per time machine. Time machines gain +0.1% CpS per factory.",
+				"lore": "\"Introduce more quickitude in your system for increased speedation of fastness.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 4,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 11,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 375,
+			"name": "Contracts from beyond",
+			"cost": 2e15,
+
+			"description": {
+
+				"main": "Banks gain +5% CpS per portal. Portals gain +0.1% CpS per bank.",
+				"lore": "\"Make sure to read the fine print!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 10,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 376,
+			"name": "Printing presses",
+			"cost": 5.4e15,
+
+			"description": {
+
+				"main": "Factories gain +5% CpS per bank. Banks gain +0.1% CpS per factory.",
+				"lore": "\"Fake bills so real, they're almost worth the ink they're printed with.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 15,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 4,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 377,
+			"name": "Paganism",
+			"cost": 2e15,
+
+			"description": {
+
+				"main": "Temples gain +5% CpS per portal. Portals gain +0.1% CpS per temple.",
+				"lore": "\"Some deities are better left unworshipped.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 10,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 378,
+			"name": "God particle",
+			"cost": 340e21,
+
+			"description": {
+
+				"main": "Temples gain +5% CpS per antimatter condenser. Antimatter condensers gain +0.1% CpS per temple.",
+				"lore": "\"Turns out God is much tinier than we thought, I guess.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 16,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 12,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 379,
+			"name": "Arcane knowledge",
+			"cost": 156.6e12,
+
+			"description": {
+
+				"main": "Wizard towers gain +5% CpS per alchemy lab. Alchemy labs gain +0.1% CpS per wizard tower.",
+				"lore": "\"Some things were never meant to be known - only mildly speculated.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 9,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 380,
+			"name": "Magical botany",
+			"cost": 660.022e15,
+
+			"description": {
+
+				"main": "Farms gain +5% CpS per wizard tower. Wizard towers gain +0.1% CpS per farm.",
+				"lore": "\"Already known in some reactionary newspapers as \"the wizard's GMOs\".\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 17,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 2,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 381,
+			"name": "Fossil fuels",
+			"cost": 10.2e12,
+
+			"description": {
+
+				"main": "Mines gain +5% CpS per shipment. Shipments gain +0.1% CpS per mine.",
+				"lore": "\"Somehow better than plutonium for powering rockets. Extracted from the fuels of ancient, fossilized civilizations.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 8,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 382,
+			"name": "Shipyards",
+			"cost": 10.203e18,
+
+			"description": {
+
+				"main": "Factories gain +5% CpS per shipment. Shipments gain +0.1% CpS per factory.",
+				"lore": "\"Where carpentry, blind luck, and asbestos insulation unite to produce the most dazzling spaceships on the planet.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 5,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 4,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 8,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 383,
+			"name": "Primordial ores",
+			"cost": 150e12,
+
+			"description": {
+
+				"main": "Mines gain +5% CpS per alchemy lab. Alchemy labs gain +0.1% CpS per mine.",
+				"lore": "\"Only when refining the purest metals will you extract the sweetest sap of the earth.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 9,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 384,
+			"name": "Gold fund",
+			"cost": 150.028e18,
+
+			"description": {
+
+				"main": "Banks gain +5% CpS per alchemy lab. Alchemy labs gain +0.1% CpS per bank.",
+				"lore": "\"If gold is the backbone of the economy, cookies, surely, are its hip joints.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 6,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 9,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 385,
+			"name": "Infernal crops",
+			"cost": 2e15,
+
+			"description": {
+
+				"main": "Farms gain +5% CpS per portal. Portals gain +0.1% CpS per farm.",
+				"lore": "\"Sprinkle regularly with FIRE.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 2,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 10,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 386,
+			"name": "Abysmal glimmer",
+			"cost": 4.22e24,
+
+			"description": {
+
+				"main": "Portals gain +5% CpS per prism. Prisms gain +0.1% CpS per portal.",
+				"lore": "\"Someone, or something, is staring back at you. Perhaps at all of us.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 7,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 10,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 387,
+			"name": "Relativistic parsec-skipping",
+			"cost": 28.102e15,
+
+			"description": {
+
+				"main": "Shipments gain +5% CpS per time machine. Time machines gain +0.1% CpS per shipment.",
+				"lore": "\"People will tell you this isn't physically possible. These are people you don't want on your ship.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 8,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 11,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 388,
+			"name": "Primeval glow",
+			"cost": 4.48e24,
+
+			"description": {
+
+				"main": "Time machines gain +5% CpS per prism. Prisms gain +0.1% CpS per time machine.",
+				"lore": "\"From unending times, an ancient light still shines, impossibly pure and fragile in its old age.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 8,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 13,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 11,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 389,
+			"name": "Extra physics funding",
+			"cost": 340e15,
+
+			"description": {
+
+				"main": "Banks gain +5% CpS per antimatter condenser. Antimatter condensers gain +0.1% CpS per bank.",
+				"lore": "\"Time to put your money where your particle colliders are.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 5,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 12,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 390,
+			"name": "Chemical proficiency",
+			"cost": 341.5e21,
+
+			"description": {
+
+				"main": "Alchemy labs gain +5% CpS per antimatter condenser. Antimatter condensers gain +0.1% CpS per alchemy lab.",
+				"lore": "\"Discover exciting new elements, such as Fleshmeltium, Inert Shampoo Byproduct #17 and Carbon++!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 13,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 9,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 12,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 391,
+			"name": "Light magic",
+			"cost": 4.2e18,
+
+			"description": {
+
+				"main": "Wizard towers gain +5% CpS per prism. Prisms gain +0.1% CpS per wizard tower.",
+				"lore": "\"Actually not to be taken lightly! No, I'm serious. 178 people died last year. You don't mess around with magic.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 7,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 13,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 392,
+			"name": "Mystical energies",
+			"cost": 4.2e24,
+
+			"description": {
+
+				"main": "Temples gain +5% CpS per prism. Prisms gain +0.1% CpS per temple.",
+				"lore": "\"Something beckons from within the light. It is warm, comforting, and apparently the cause for several kinds of exotic skin cancers.\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 14,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 6,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 13,
+					"amount": 75
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 424,
+			"name": "Gemmed talismans",
+			"cost": 52e18,
+
+			"description": {
+
+				"main": "Mines gain +5% CpS per chancemaker. Chancemakers gain +0.1% CpS per mine.",
+				"lore": "\"Good-luck charms covered in ancient and excruciatingly rare crystals. A must have for job interviews!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 20
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 3,
+					"amount": 15
+
+				},
+
+				{
+
+					"id": 14,
+					"amount": 15
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"id": 443,
+			"name": "Charm quarks",
+			"cost": 55.4e24,
+
+			"description": {
+
+				"main": "Antimatter condensers gain +5% CpS per chancemakers . Chancemakers gain +0.1% CpS per antimatter condenser.",
+				"lore": "\"They're after your lucky quarks!\""
+
+			},
+
+			"icon-offset": {
+
+				"x": 19,
+				"y": 29
+
+			},
+
+			"unlock-requirements": [
+
+				{
+
+					"id": 12,
+					"amount": 75
+
+				},
+
+				{
+
+					"id": 14,
+					"amount": 75
+
+				}
+
+			]
+
+		}
+
+	]
+
+}
