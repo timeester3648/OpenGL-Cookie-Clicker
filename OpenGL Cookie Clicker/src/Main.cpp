@@ -134,6 +134,8 @@ int main() {
 		}
 
 	}
+
+	delete renderer;
 	
 	Loader::cleanUp();
 	AudioHandler::cleanUp();

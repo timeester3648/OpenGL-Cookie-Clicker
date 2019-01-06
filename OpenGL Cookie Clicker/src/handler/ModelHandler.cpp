@@ -1,6 +1,8 @@
 #include "../../header/handler/ModelHandler.h"
 #include "../../header/loading/Loader.h"
 
+#include <algorithm>
+
 std::unordered_map<int, TexturedModel*> ModelHandler::textured_models = std::unordered_map<int, TexturedModel*>();
 std::vector<RawModel> ModelHandler::raw_models = std::vector<RawModel>();
 std::vector<ModelTexture*> ModelHandler::model_textures = std::vector<ModelTexture*>();
@@ -72,17 +74,17 @@ void ModelHandler::addModel(std::string name, RawModel* raw_model, int cols, int
 
 void ModelHandler::cleanUp() {
 
-	for (auto& it : model_textures) {
+	std::for_each(model_textures.begin(), model_textures.end(), [&](const ModelTexture* model) {
+		
+		delete model;
+	
+	});
 
-		delete it;
-
-	}
-
-	for (auto& it : textured_models) {
-
-		delete it.second;
-
-	}
+	std::for_each(textured_models.begin(), textured_models.end(), [&](const std::pair<int, const TexturedModel*>& pair) {
+		
+		delete pair.second;
+	
+	});
 
 	textured_models.clear();
 
@@ -93,16 +95,12 @@ void ModelHandler::cleanUp() {
 
 TexturedModel* ModelHandler::getModelById(int id) {
 
-	for (auto& it : textured_models) {
+	auto it = std::find_if(textured_models.begin(), textured_models.end(), [&](const std::pair<int, const TexturedModel*>& pair) {
+		
+		return pair.first == id;
+	
+	});
 
-		if (it.first == id) {
-
-			return it.second;
-
-		}
-
-	}
-
-	return nullptr;
+	return (it == textured_models.end() ? nullptr : it->second);
 
 }

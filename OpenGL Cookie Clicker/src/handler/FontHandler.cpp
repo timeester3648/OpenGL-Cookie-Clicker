@@ -32,10 +32,10 @@ void FontHandler::addFont(std::string filename, float size, bool preload) {
 
 void FontHandler::cleanUp() {
 
-	for (auto& data : fonts) {
-
+	std::for_each(fonts.begin(), fonts.end(), [&](const FontData& data) {
+		
 		delete data.font;
-
-	}
+	
+	});
 
 }
