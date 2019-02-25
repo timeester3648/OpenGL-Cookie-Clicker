@@ -11,7 +11,7 @@
 
 using namespace EOUL::Math;
 
-Upgrade::Upgrade(short id, Vec2 position, long double cost, Vec2 icon_offset, std::string name, std::string description, std::string lore, int index) : Button(position, { .07f - .01875f * .5f, .07f - .01875f * .5f }), id(id), cost(cost), name(name), description(description), lore(lore), index(index), other_row(index >= 5) {
+Upgrade::Upgrade(short id, Vec2 position, long double cost, Vec2 icon_offset, std::string name, std::string description, std::string lore, int index) : Button(position, { .07f - .01875f * .5f, .07f - .01875f * .5f }), id(id), cost(cost), name(std::move(name)), description(std::move(description)), lore(std::move(lore)), index(index), other_row(index >= 5) {
 
 	this->enough = PlayerData::cookies >= cost;
 	this->shade = new StaticImage(position, { .07f - .01875f * .5f, .07f - .01875f * .5f }, ModelHandler::getModelById(3), 0.0f);

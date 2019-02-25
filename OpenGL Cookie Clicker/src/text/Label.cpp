@@ -2,7 +2,7 @@
 #include "../../header/display/render/TextRenderer.h"
 #include "../../header/Main.h"
 
-Label::Label(std::string text, Vec2 position, const Font* font, Vec4 color, TextRenderer::Alignment alignment, float max_width) : text(text), position(position), font(font), color(color), alignment(alignment), max_width(max_width) {
+Label::Label(std::string text, Vec2 position, const Font* font, Vec4 color, TextRenderer::Alignment alignment, float max_width) : text(std::move(text)), position(position), font(font), color(color), alignment(alignment), max_width(max_width) {
 
 }
 

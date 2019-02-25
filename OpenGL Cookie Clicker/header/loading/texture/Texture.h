@@ -16,8 +16,8 @@ class Texture {
 
 	private:
 
-		Texture(const Texture& copy) = delete;
 		Texture() = delete;
+		Texture(const Texture& copy) = delete;
 		Texture(const char* path, bool repeat = false, bool font = false);
 		Texture(unsigned char* pixels, int width, int height, bool repeat = false);
 

@@ -23,7 +23,7 @@
 using namespace EOUL::Math;
 using namespace EOUL::Util;
 
-ShopTile::ShopTile(std::string name, int index, bool locked) : ImageButton({ .84 + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .14f }, { .35f, .07f }, ModelHandler::getModelById(5)), name(name), index(index), locked(locked) {
+ShopTile::ShopTile(std::string name, int index, bool locked) : ImageButton({ .84 + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .14f }, { .35f, .07f }, ModelHandler::getModelById(5)), name(std::move(name)), index(index), locked(locked) {
 
 	this->mixIntensity = .15f;
 

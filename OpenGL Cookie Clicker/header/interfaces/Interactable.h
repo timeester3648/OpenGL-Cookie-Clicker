@@ -9,7 +9,6 @@ typedef glm::vec2 Vec2;
 /*
 
 	* Choose which functions you want to override, all functions are optional
-
 	* Not a traditional interface, but it still is an interface
 
 */
