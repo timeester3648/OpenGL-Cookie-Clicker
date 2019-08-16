@@ -576,7 +576,7 @@ int _glfwPlatformInit(void)
         return GLFW_FALSE;
 
     _glfwInitTimerWin32();
-    _glfwInitJoysticksWin32();
+   // _glfwInitJoysticksWin32();
 
     _glfwPollMonitorsWin32();
     return GLFW_TRUE;

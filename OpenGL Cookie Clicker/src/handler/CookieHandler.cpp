@@ -6,7 +6,7 @@
 #include "../../header/handler/EffectHandler.h"
 #include "../../header/Main.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <fstream>
 #include <iostream>
 
@@ -54,7 +54,7 @@ void CookieHandler::update() {
 	static long double add_prism = 0.0;
 	static long double add_chance_maker = 0.0;
 
-	add_cursor += process_cps(0, (GameSettings::cursor_cps * PlayerData::cursors) / GameSettings::fps);
+	add_cursor += process_cps(0, (GameSettings::cursor_cps * PlayerData::cursors) / GameSettings::updatePerSecond);
 
 	if (add_cursor >= 1.0) {
 
@@ -65,7 +65,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_grandma += process_cps(1, (GameSettings::grandma_cps * PlayerData::grandmas) / GameSettings::fps);
+	add_grandma += process_cps(1, (GameSettings::grandma_cps * PlayerData::grandmas) / GameSettings::updatePerSecond);
 
 	if (add_grandma >= 1.0) {
 
@@ -76,7 +76,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_farm += process_cps(2, (GameSettings::farm_cps * PlayerData::farms) / GameSettings::fps);
+	add_farm += process_cps(2, (GameSettings::farm_cps * PlayerData::farms) / GameSettings::updatePerSecond);
 
 	if (add_farm >= 1.0) {
 
@@ -87,7 +87,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_mine += process_cps(3, (GameSettings::mine_cps * PlayerData::mines) / GameSettings::fps);
+	add_mine += process_cps(3, (GameSettings::mine_cps * PlayerData::mines) / GameSettings::updatePerSecond);
 
 	if (add_mine >= 1.0) {
 
@@ -98,7 +98,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_factories += process_cps(4, (GameSettings::factory_cps * PlayerData::factories) / GameSettings::fps);
+	add_factories += process_cps(4, (GameSettings::factory_cps * PlayerData::factories) / GameSettings::updatePerSecond);
 
 	if (add_factories >= 1.0) {
 
@@ -109,7 +109,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_bank += process_cps(5, (GameSettings::bank_cps * PlayerData::banks) / GameSettings::fps);
+	add_bank += process_cps(5, (GameSettings::bank_cps * PlayerData::banks) / GameSettings::updatePerSecond);
 
 	if (add_bank >= 1.0) {
 
@@ -120,7 +120,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_temple += process_cps(6, (GameSettings::temple_cps * PlayerData::temples) / GameSettings::fps);
+	add_temple += process_cps(6, (GameSettings::temple_cps * PlayerData::temples) / GameSettings::updatePerSecond);
 
 	if (add_temple >= 1.0) {
 
@@ -131,7 +131,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_wizard_tower += process_cps(7, (GameSettings::wizard_tower_cps * PlayerData::wizard_towers) / GameSettings::fps);
+	add_wizard_tower += process_cps(7, (GameSettings::wizard_tower_cps * PlayerData::wizard_towers) / GameSettings::updatePerSecond);
 
 	if (add_wizard_tower >= 1.0) {
 
@@ -142,7 +142,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_shipment += process_cps(8, (GameSettings::shipment_cps * PlayerData::shipments) / GameSettings::fps);
+	add_shipment += process_cps(8, (GameSettings::shipment_cps * PlayerData::shipments) / GameSettings::updatePerSecond);
 
 	if (add_shipment >= 1.0) {
 
@@ -153,7 +153,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_alchemy_lab += process_cps(9, (GameSettings::alchemy_lab_cps * PlayerData::alchemy_labs) / GameSettings::fps);
+	add_alchemy_lab += process_cps(9, (GameSettings::alchemy_lab_cps * PlayerData::alchemy_labs) / GameSettings::updatePerSecond);
 
 	if (add_alchemy_lab >= 1.0) {
 
@@ -164,7 +164,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_portal += process_cps(10, (GameSettings::portal_cps * PlayerData::portals) / GameSettings::fps);
+	add_portal += process_cps(10, (GameSettings::portal_cps * PlayerData::portals) / GameSettings::updatePerSecond);
 
 	if (add_portal >= 1.0) {
 
@@ -175,7 +175,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_time_machine += process_cps(11, (GameSettings::time_machine_cps * PlayerData::time_machines) / GameSettings::fps);
+	add_time_machine += process_cps(11, (GameSettings::time_machine_cps * PlayerData::time_machines) / GameSettings::updatePerSecond);
 
 	if (add_time_machine >= 1.0) {
 
@@ -186,7 +186,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_antimatter_condenser += process_cps(12, (GameSettings::antimatter_condenser_cps * PlayerData::antimatter_condensers) / GameSettings::fps);
+	add_antimatter_condenser += process_cps(12, (GameSettings::antimatter_condenser_cps * PlayerData::antimatter_condensers) / GameSettings::updatePerSecond);
 
 	if (add_antimatter_condenser >= 1.0) {
 
@@ -197,7 +197,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_prism += process_cps(13, (GameSettings::prism_cps * PlayerData::prisms) / GameSettings::fps);
+	add_prism += process_cps(13, (GameSettings::prism_cps * PlayerData::prisms) / GameSettings::updatePerSecond);
 
 	if (add_prism >= 1.0) {
 
@@ -208,7 +208,7 @@ void CookieHandler::update() {
 
 	}
 
-	add_chance_maker += process_cps(14, (GameSettings::chance_maker_cps * PlayerData::chance_makers) / GameSettings::fps);
+	add_chance_maker += process_cps(14, (GameSettings::chance_maker_cps * PlayerData::chance_makers) / GameSettings::updatePerSecond);
 
 	if (add_chance_maker >= 1.0) {
 

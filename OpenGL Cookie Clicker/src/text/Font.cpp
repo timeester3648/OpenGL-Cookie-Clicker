@@ -7,7 +7,7 @@
 Font::Font(File file, float size, bool preload) : file(std::move(file)), size(size), preloaded(preload) {
 
 	this->atlas = ftgl::texture_atlas_new(512, 512, 1);
-	this->font = ftgl::texture_font_new_from_file(this->atlas, this->size, this->file.getAbsolutePath().c_str());
+	this->font = ftgl::texture_font_new_from_file(this->atlas, this->size, this->file.getAbsolutePath().u8string().c_str());
 	this->buffer = ftgl::vertex_buffer_new("vertex:3f,tex_coord:2f,color:4f");
 
 	if (this->font == nullptr) {

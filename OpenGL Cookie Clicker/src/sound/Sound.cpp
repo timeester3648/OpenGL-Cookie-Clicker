@@ -3,13 +3,13 @@
 
 Sound::Sound(std::string name) {
 
-	this->audio = AudioHandler::getSystem().createAudioEntityFromFile("res/sounds/" + name + ".wav");
+	this->audio = EOUL::OpenAL::SoundSystem::loadToAudioEntity("res/sounds/" + name + ".wav", EOUL::OpenAL::SoundSystem::FileType::WavFile);
 
 }
 
 Sound::~Sound() {
 
-	this->audio->release();
+	delete this->audio;
 
 }
 

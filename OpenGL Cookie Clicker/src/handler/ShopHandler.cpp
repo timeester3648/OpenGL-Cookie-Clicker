@@ -9,7 +9,7 @@
 #include "../../header/Main.h"
 
 #include <iostream>
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 
 bool ShopHandler::registered[15];
 bool ShopHandler::to_be_registered[15];

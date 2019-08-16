@@ -9,7 +9,7 @@
 #include "../../header/util/MathHelper.h"
 
 #include <iostream>
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <isect2d\isect2d.h>
 #include <glm\glm.hpp>
 #include <filesystem>
@@ -138,6 +138,6 @@ bool CookieButton::over(double x, double y) {
 	Vec2 top_left = MathHelper::glfwToWindowCoord(this->position - tmp_scl, this->scale);
 	Vec2 bottom_right = MathHelper::glfwToWindowCoord(this->position + tmp_scl, this->scale);
 
-	return (x >= top_left.x && x <= bottom_right.x) && (y >= top_left.y && y <= bottom_right.y) && dist(x, y, pos.x, pos.y) < 87;
+	return (x >= top_left.x && x <= bottom_right.x) && (y >= top_left.y && y <= bottom_right.y) && dist((float) x, (float) y, pos.x, pos.y) < 87.0f;
 
 }

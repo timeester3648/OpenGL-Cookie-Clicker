@@ -1,7 +1,7 @@
 #include "../../header/interfaces/Interactable.h"
 #include "../../header/util/MathHelper.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <iostream>
 #include <glm\glm.hpp>
 #include <isect2d\isect2d.h>

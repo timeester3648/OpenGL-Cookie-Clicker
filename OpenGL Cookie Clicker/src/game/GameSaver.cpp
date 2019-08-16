@@ -5,18 +5,21 @@
 #include "../../header/handler/UpgradeHandler.h"
 #include "../../header/handler/ShopHandler.h"
 
-#include <EOUL\Save.h>
+#include <EOUL\Save.hpp>
 #include <GLFW\glfw3.h>
 #include <thread>
 #include <iostream>
 
 using namespace EOUL::IO;
 
-std::string GameSaver::path = "game_save.dat";
+std::string GameSaver::path = std::filesystem::current_path().u8string() + "\\game_save.dat";
 
 void GameSaver::load_game() {
 
 	SaveFile file = SaveFile(path);
+
+	file.open(std::fstream::in);
+
 	std::vector<SaveData> save = file.readData();
 
 	if (save.size() == 52) {
@@ -87,6 +90,8 @@ void GameSaver::load_game() {
 
 	}
 
+	file.close();
+
 }
 
 void GameSaver::save_game() {
@@ -94,62 +99,63 @@ void GameSaver::save_game() {
 	SaveFile file = SaveFile(path);
 
 	file.remove();
+	file.open(std::fstream::out);
 
-	file.save_queued((char*) &PlayerData::click_amount, sizeof(PlayerData::click_amount));
-	file.save_queued((char*) &PlayerData::cookies, sizeof(PlayerData::cookies));
+	file.saveQueued((char*) &PlayerData::click_amount, sizeof(PlayerData::click_amount));
+	file.saveQueued((char*) &PlayerData::cookies, sizeof(PlayerData::cookies));
 
-	file.save_queued((char*) &PlayerData::cursors, sizeof(PlayerData::cursors));
-	file.save_queued((char*) &PlayerData::grandmas, sizeof(PlayerData::grandmas));
-	file.save_queued((char*) &PlayerData::farms, sizeof(PlayerData::farms));
-	file.save_queued((char*) &PlayerData::mines, sizeof(PlayerData::mines));
-	file.save_queued((char*) &PlayerData::factories, sizeof(PlayerData::factories));
-	file.save_queued((char*) &PlayerData::banks, sizeof(PlayerData::banks));
-	file.save_queued((char*) &PlayerData::temples, sizeof(PlayerData::temples));
-	file.save_queued((char*) &PlayerData::wizard_towers, sizeof(PlayerData::wizard_towers));
-	file.save_queued((char*) &PlayerData::shipments, sizeof(PlayerData::shipments));
-	file.save_queued((char*) &PlayerData::alchemy_labs, sizeof(PlayerData::alchemy_labs));
-	file.save_queued((char*) &PlayerData::portals, sizeof(PlayerData::portals));
-	file.save_queued((char*) &PlayerData::time_machines, sizeof(PlayerData::time_machines));
-	file.save_queued((char*) &PlayerData::antimatter_condensers, sizeof(PlayerData::antimatter_condensers));
-	file.save_queued((char*) &PlayerData::prisms, sizeof(PlayerData::prisms));
-	file.save_queued((char*) &PlayerData::chance_makers, sizeof(PlayerData::chance_makers));
+	file.saveQueued((char*) &PlayerData::cursors, sizeof(PlayerData::cursors));
+	file.saveQueued((char*) &PlayerData::grandmas, sizeof(PlayerData::grandmas));
+	file.saveQueued((char*) &PlayerData::farms, sizeof(PlayerData::farms));
+	file.saveQueued((char*) &PlayerData::mines, sizeof(PlayerData::mines));
+	file.saveQueued((char*) &PlayerData::factories, sizeof(PlayerData::factories));
+	file.saveQueued((char*) &PlayerData::banks, sizeof(PlayerData::banks));
+	file.saveQueued((char*) &PlayerData::temples, sizeof(PlayerData::temples));
+	file.saveQueued((char*) &PlayerData::wizard_towers, sizeof(PlayerData::wizard_towers));
+	file.saveQueued((char*) &PlayerData::shipments, sizeof(PlayerData::shipments));
+	file.saveQueued((char*) &PlayerData::alchemy_labs, sizeof(PlayerData::alchemy_labs));
+	file.saveQueued((char*) &PlayerData::portals, sizeof(PlayerData::portals));
+	file.saveQueued((char*) &PlayerData::time_machines, sizeof(PlayerData::time_machines));
+	file.saveQueued((char*) &PlayerData::antimatter_condensers, sizeof(PlayerData::antimatter_condensers));
+	file.saveQueued((char*) &PlayerData::prisms, sizeof(PlayerData::prisms));
+	file.saveQueued((char*) &PlayerData::chance_makers, sizeof(PlayerData::chance_makers));
 
-	file.save_queued((char*) &GameSettings::cursor_cps, sizeof(GameSettings::cursor_cps));
-	file.save_queued((char*) &GameSettings::grandma_cps, sizeof(GameSettings::grandma_cps));
-	file.save_queued((char*) &GameSettings::farm_cps, sizeof(GameSettings::farm_cps));
-	file.save_queued((char*) &GameSettings::mine_cps, sizeof(GameSettings::mine_cps));
-	file.save_queued((char*) &GameSettings::factory_cps, sizeof(GameSettings::factory_cps));
-	file.save_queued((char*) &GameSettings::bank_cps, sizeof(GameSettings::bank_cps));
-	file.save_queued((char*) &GameSettings::temple_cps, sizeof(GameSettings::temple_cps));
-	file.save_queued((char*) &GameSettings::wizard_tower_cps, sizeof(GameSettings::wizard_tower_cps));
-	file.save_queued((char*) &GameSettings::shipment_cps, sizeof(GameSettings::shipment_cps));
-	file.save_queued((char*) &GameSettings::alchemy_lab_cps, sizeof(GameSettings::alchemy_lab_cps));
-	file.save_queued((char*) &GameSettings::portal_cps, sizeof(GameSettings::portal_cps));
-	file.save_queued((char*) &GameSettings::time_machine_cps, sizeof(GameSettings::time_machine_cps));
-	file.save_queued((char*) &GameSettings::antimatter_condenser_cps, sizeof(GameSettings::antimatter_condenser_cps));
-	file.save_queued((char*) &GameSettings::prism_cps, sizeof(GameSettings::prism_cps));
-	file.save_queued((char*) &GameSettings::chance_maker_cps, sizeof(GameSettings::chance_maker_cps));
+	file.saveQueued((char*) &GameSettings::cursor_cps, sizeof(GameSettings::cursor_cps));
+	file.saveQueued((char*) &GameSettings::grandma_cps, sizeof(GameSettings::grandma_cps));
+	file.saveQueued((char*) &GameSettings::farm_cps, sizeof(GameSettings::farm_cps));
+	file.saveQueued((char*) &GameSettings::mine_cps, sizeof(GameSettings::mine_cps));
+	file.saveQueued((char*) &GameSettings::factory_cps, sizeof(GameSettings::factory_cps));
+	file.saveQueued((char*) &GameSettings::bank_cps, sizeof(GameSettings::bank_cps));
+	file.saveQueued((char*) &GameSettings::temple_cps, sizeof(GameSettings::temple_cps));
+	file.saveQueued((char*) &GameSettings::wizard_tower_cps, sizeof(GameSettings::wizard_tower_cps));
+	file.saveQueued((char*) &GameSettings::shipment_cps, sizeof(GameSettings::shipment_cps));
+	file.saveQueued((char*) &GameSettings::alchemy_lab_cps, sizeof(GameSettings::alchemy_lab_cps));
+	file.saveQueued((char*) &GameSettings::portal_cps, sizeof(GameSettings::portal_cps));
+	file.saveQueued((char*) &GameSettings::time_machine_cps, sizeof(GameSettings::time_machine_cps));
+	file.saveQueued((char*) &GameSettings::antimatter_condenser_cps, sizeof(GameSettings::antimatter_condenser_cps));
+	file.saveQueued((char*) &GameSettings::prism_cps, sizeof(GameSettings::prism_cps));
+	file.saveQueued((char*) &GameSettings::chance_maker_cps, sizeof(GameSettings::chance_maker_cps));
 
-	file.save_queued((char*) &PlayerData::cookies_produced_cursors, sizeof(PlayerData::cookies_produced_cursors));
-	file.save_queued((char*) &PlayerData::cookies_produced_grandmas, sizeof(PlayerData::cookies_produced_grandmas));
-	file.save_queued((char*) &PlayerData::cookies_produced_farms, sizeof(PlayerData::cookies_produced_farms));
-	file.save_queued((char*) &PlayerData::cookies_produced_mines, sizeof(PlayerData::cookies_produced_mines));
-	file.save_queued((char*) &PlayerData::cookies_produced_factories, sizeof(PlayerData::cookies_produced_factories));
-	file.save_queued((char*) &PlayerData::cookies_produced_banks, sizeof(PlayerData::cookies_produced_banks));
-	file.save_queued((char*) &PlayerData::cookies_produced_temples, sizeof(PlayerData::cookies_produced_temples));
-	file.save_queued((char*) &PlayerData::cookies_produced_wizard_towers, sizeof(PlayerData::cookies_produced_wizard_towers));
-	file.save_queued((char*) &PlayerData::cookies_produced_shipments, sizeof(PlayerData::cookies_produced_shipments));
-	file.save_queued((char*) &PlayerData::cookies_produced_alchemy_labs, sizeof(PlayerData::cookies_produced_alchemy_labs));
-	file.save_queued((char*) &PlayerData::cookies_produced_portals, sizeof(PlayerData::cookies_produced_portals));
-	file.save_queued((char*) &PlayerData::cookies_produced_time_machines, sizeof(PlayerData::cookies_produced_time_machines));
-	file.save_queued((char*) &PlayerData::cookies_produced_antimatter_condensers, sizeof(PlayerData::cookies_produced_antimatter_condensers));
-	file.save_queued((char*) &PlayerData::cookies_produced_prisms, sizeof(PlayerData::cookies_produced_prisms));
-	file.save_queued((char*) &PlayerData::cookies_produced_chance_makers, sizeof(PlayerData::cookies_produced_chance_makers));
+	file.saveQueued((char*) &PlayerData::cookies_produced_cursors, sizeof(PlayerData::cookies_produced_cursors));
+	file.saveQueued((char*) &PlayerData::cookies_produced_grandmas, sizeof(PlayerData::cookies_produced_grandmas));
+	file.saveQueued((char*) &PlayerData::cookies_produced_farms, sizeof(PlayerData::cookies_produced_farms));
+	file.saveQueued((char*) &PlayerData::cookies_produced_mines, sizeof(PlayerData::cookies_produced_mines));
+	file.saveQueued((char*) &PlayerData::cookies_produced_factories, sizeof(PlayerData::cookies_produced_factories));
+	file.saveQueued((char*) &PlayerData::cookies_produced_banks, sizeof(PlayerData::cookies_produced_banks));
+	file.saveQueued((char*) &PlayerData::cookies_produced_temples, sizeof(PlayerData::cookies_produced_temples));
+	file.saveQueued((char*) &PlayerData::cookies_produced_wizard_towers, sizeof(PlayerData::cookies_produced_wizard_towers));
+	file.saveQueued((char*) &PlayerData::cookies_produced_shipments, sizeof(PlayerData::cookies_produced_shipments));
+	file.saveQueued((char*) &PlayerData::cookies_produced_alchemy_labs, sizeof(PlayerData::cookies_produced_alchemy_labs));
+	file.saveQueued((char*) &PlayerData::cookies_produced_portals, sizeof(PlayerData::cookies_produced_portals));
+	file.saveQueued((char*) &PlayerData::cookies_produced_time_machines, sizeof(PlayerData::cookies_produced_time_machines));
+	file.saveQueued((char*) &PlayerData::cookies_produced_antimatter_condensers, sizeof(PlayerData::cookies_produced_antimatter_condensers));
+	file.saveQueued((char*) &PlayerData::cookies_produced_prisms, sizeof(PlayerData::cookies_produced_prisms));
+	file.saveQueued((char*) &PlayerData::cookies_produced_chance_makers, sizeof(PlayerData::cookies_produced_chance_makers));
 
-	file.save_queued((char*) &GameSettings::short_numbers, sizeof(GameSettings::short_numbers));
+	file.saveQueued((char*) &GameSettings::short_numbers, sizeof(GameSettings::short_numbers));
 
-	file.save_queued((char*) &ShopHandler::registered, sizeof(ShopHandler::registered));
-	file.save_queued((char*) &ShopHandler::locked, sizeof(ShopHandler::locked));
+	file.saveQueued((char*) &ShopHandler::registered, sizeof(ShopHandler::registered));
+	file.saveQueued((char*) &ShopHandler::locked, sizeof(ShopHandler::locked));
 
 	short* upgrade_ids = new short[UpgradeHandler::unlocked_ids.size()];
 
@@ -162,10 +168,11 @@ void GameSaver::save_game() {
 
 	}
 
-	file.save_queued((char*) upgrade_ids, sizeof(short) * UpgradeHandler::unlocked_ids.size());
-	file.save_queued((char*) &PlayerData::cookies_produced, sizeof(PlayerData::cookies_produced));
+	file.saveQueued((char*) upgrade_ids, sizeof(short) * UpgradeHandler::unlocked_ids.size());
+	file.saveQueued((char*) &PlayerData::cookies_produced, sizeof(PlayerData::cookies_produced));
 
-	file.save_all_queued();
+	file.saveAllQueued();
+	file.close();
 
 	delete[] upgrade_ids;
 

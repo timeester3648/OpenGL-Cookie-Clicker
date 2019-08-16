@@ -14,20 +14,17 @@
 #include "../../header/handler/CookieHandler.h"
 #include "../../header/Main.h"
 
-#define EOUL_USE_GLFW_INPUT
-
-#include <EOUL\Maths.h>
-#include <EOUL\Utils.h>
+#include <EOUL.hpp>
 #include <iostream>
 
 using namespace EOUL::Math;
 using namespace EOUL::Util;
 
-ShopTile::ShopTile(std::string name, int index, bool locked) : ImageButton({ .84 + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .14f }, { .35f, .07f }, ModelHandler::getModelById(5)), name(std::move(name)), index(index), locked(locked) {
+ShopTile::ShopTile(std::string name, int index, bool locked) : ImageButton(Vec2{ .84 + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .14f }, Vec2{ .35f, .07f }, ModelHandler::getModelById(5)), name(std::move(name)), index(index), locked(locked) {
 
 	this->mixIntensity = .15f;
 
-	this->offset = { 0, this->index % 4 };
+	this->offset = Vec2{ 0, this->index % 4 };
 
 	int tmp = this->index;
 
@@ -48,19 +45,19 @@ ShopTile::ShopTile(std::string name, int index, bool locked) : ImageButton({ .84
 
 	}
 
-	Vec2 window_pos = MathHelper::glfwToWindowCoord({ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .01f - .14f }, { .35f, .07f });
+	Vec2 window_pos = MathHelper::glfwToWindowCoord(Vec2{ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .01f - .14f }, Vec2{ .35f, .07f });
 
 	window_pos.y = DisplayManager::height - window_pos.y;
 
 	this->overlay = new StaticImage(this->position, this->scale, ModelHandler::getModelById(6));
-	this->icon = new StaticImage(this->position - Vec2(.35f * .8f, 0.0f), Vec2(.07f, .07f), ModelHandler::getModelById(7), 0.0f, { 0, tmp });
+	this->icon = new StaticImage(this->position - Vec2(.35f * .8f, 0.0f), Vec2(.07f, .07f), ModelHandler::getModelById(7), 0.0f, Vec2{ 0, tmp });
 	this->money_icon = new StaticImage(Vec2(.65f + (.07f - .01875f * .5f) * 2.0f * .75f, .35f - index * .14f - .035f - .14f), Vec2(.0175f, .0175f), ModelHandler::getModelById(8));
 	this->name_label = new Label((this->locked ? "???" : this->name), window_pos, FontHandler::getFont("Merriweather-Bold", this->index != 12 ? 33.0f : 20.0f));
-	this->money_label = new Label(Formatter::formatCookies(ShopPrices::getPrice(this->index), 3), window_pos + Vec2(20.0f, -15.0f), FontHandler::getFont("Merriweather-Black", 12.0f), { 0.0f, 1.0f, 0.0f, 1.0f });
-	this->amount_label = new Label(*PlayerData::amounts[this->index] == 0 ? "" : Formatter::formatCookies((long double) *PlayerData::amounts[this->index], 0) + " ", window_pos + Vec2(200.0f, -7.5f), FontHandler::getFont("Merriweather-Bold", 33.0f), { 0.0f, 0.0f, 0.0f, .3f }, TextRenderer::Alignment::Right);
+	this->money_label = new Label(Formatter::formatCookies(ShopPrices::getPrice(this->index), 3), window_pos + Vec2(20.0f, -15.0f), FontHandler::getFont("Merriweather-Black", 12.0f), Vec4{ 0.0f, 1.0f, 0.0f, 1.0f });
+	this->amount_label = new Label(*PlayerData::amounts[this->index] == 0 ? "" : Formatter::formatCookies((long double)* PlayerData::amounts[this->index], 0) + " ", window_pos + Vec2(200.0f, -7.5f), FontHandler::getFont("Merriweather-Bold", 33.0f), Vec4{ 0.0f, 0.0f, 0.0f, .3f }, TextRenderer::Alignment::Right);
 
 	this->info_pane = new BuildingInfoPane(name, "+" + std::to_string(*PlayerData::amounts[this->index]) + "cps, currently " + std::to_string(PlayerData::percentage(this->index)) + "% of all time", this->icon->offset, this->index);
-	this->info_pane->setPos({ this->info_pane->position.x, this->position.y });
+	this->info_pane->setPos(Vec2{ this->info_pane->position.x, this->position.y });
 
 	renderer->static_image_renderer.addOverlay(this->icon);
 	renderer->static_image_renderer.addOverlay(this->money_icon);
@@ -104,7 +101,7 @@ void ShopTile::onMouseUp(int key) {
 		if (this->mouse_down) {
 
 			this->activate();
-			
+
 		}
 
 		this->mouse_down = false;
@@ -120,7 +117,7 @@ void ShopTile::scroll(float amount) {
 	this->icon->position.y += amount;
 	this->money_icon->position.y += amount;
 
-	Vec2 window_pos = MathHelper::glfwToWindowCoord({ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, this->position.y - .01f }, { .35f, .07f });
+	Vec2 window_pos = MathHelper::glfwToWindowCoord(Vec2{ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, this->position.y - .01f }, Vec2{ .35f, .07f });
 
 	window_pos.y = DisplayManager::height - window_pos.y;
 
@@ -139,7 +136,7 @@ void ShopTile::setPos(Vec2 pos) {
 	this->icon->position -= diff;
 	this->money_icon->position -= diff;
 
-	Vec2 window_pos = MathHelper::glfwToWindowCoord({ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, this->position.y - .01f }, { .35f, .07f });
+	Vec2 window_pos = MathHelper::glfwToWindowCoord(Vec2{ .634f + (.07f - .01875f * .5f) * 2.0f * .75f, this->position.y - .01f }, Vec2{ .35f, .07f });
 
 	window_pos.y = DisplayManager::height - window_pos.y;
 
@@ -147,7 +144,7 @@ void ShopTile::setPos(Vec2 pos) {
 	this->money_label->position = window_pos + Vec2(20.0f, -15.0f);
 	this->amount_label->position = window_pos + Vec2(200.0f, -7.5f);
 
-	this->info_pane->setPos({ this->info_pane->position.x, this->position.y });
+	this->info_pane->setPos(Vec2{ this->info_pane->position.x, this->position.y });
 
 }
 
@@ -155,11 +152,11 @@ void ShopTile::activate() {
 
 	size_t amount = 1;
 
-	if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_CONTROL)) {
+	if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_REPEAT) {
 
 		amount = 10;
 
-	} else if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_SHIFT)) {
+	} else if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_REPEAT) {
 
 		amount = 100;
 
@@ -178,7 +175,7 @@ void ShopTile::activate() {
 	(*PlayerData::amounts[this->index]) += amount;
 
 	this->money_label->text = Formatter::formatCookies(ShopPrices::getPrice(this->index), 3);
-	this->amount_label->text = (*PlayerData::amounts[this->index] == 0 ? "" : Formatter::formatCookies((long double) *PlayerData::amounts[this->index], 0)) + " ";
+	this->amount_label->text = (*PlayerData::amounts[this->index] == 0 ? "" : Formatter::formatCookies((long double)* PlayerData::amounts[this->index], 0)) + " ";
 
 	this->play_random();
 
@@ -190,11 +187,11 @@ void ShopTile::update() {
 
 	size_t amount = 1;
 
-	if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_CONTROL)) {
+	if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_REPEAT) {
 
 		amount = 10;
 
-	} else if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_SHIFT)) {
+	} else if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_REPEAT) {
 
 		amount = 100;
 
@@ -209,18 +206,18 @@ void ShopTile::update() {
 
 	if (!this->locked) {
 
-		this->icon->offset = { 0, this->icon->offset.y };
+		this->icon->offset = Vec2{ 0, this->icon->offset.y };
 		this->name_label->text = this->name;
 		this->doMixColor = false;
-		this->mixColor = { 1.0f, 1.0f, 1.0f, 1.0f };
+		this->mixColor = Vec4{ 1.0f, 1.0f, 1.0f, 1.0f };
 		this->mixIntensity = .5f;
 
 	} else {
 
-		this->icon->offset = { 1, this->icon->offset.y };
+		this->icon->offset = Vec2{ 1, this->icon->offset.y };
 		this->name_label->text = "???";
 		this->doMixColor = true;
-		this->mixColor = { 0, 0, 0, 1.0f };
+		this->mixColor = Vec4{ 0, 0, 0, 1.0f };
 		this->mixIntensity = .3f;
 
 	}
@@ -229,11 +226,11 @@ void ShopTile::update() {
 
 	if (PlayerData::cookies >= ShopPrices::getPrice(this->index, amount)) {
 
-		this->money_label->color = { .4f, 1.0f, .4f, 1.0f };
+		this->money_label->color = Vec4{ .4f, 1.0f, .4f, 1.0f };
 
 	} else {
 
-		this->money_label->color = { 1.0f, .4f, .4f, 1.0f };
+		this->money_label->color = Vec4{ 1.0f, .4f, .4f, 1.0f };
 
 	}
 

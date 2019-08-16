@@ -2,7 +2,7 @@
 #include "../../../header/display/DisplayManager.h"
 #include "../../../header/util/MathHelper.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <glm\gtx\transform.hpp>
 
 using namespace EOUL::Math;

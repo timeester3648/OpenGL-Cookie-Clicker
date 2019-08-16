@@ -9,7 +9,7 @@ class GameSettings {
 		static constexpr long double price_increase = 1.15;
 		static constexpr long double sell_multiplier = .5;
 
-		static constexpr unsigned long long fps = 60;
+		static constexpr unsigned long long updatePerSecond = 60;
 
 		static constexpr float scroll_speed = 20;
 

@@ -5,7 +5,7 @@
 #include "../../../header/handler/InteractableHandler.h"
 #include "../../../header/shop/ShopTile.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 
 using namespace EOUL::Math;
 

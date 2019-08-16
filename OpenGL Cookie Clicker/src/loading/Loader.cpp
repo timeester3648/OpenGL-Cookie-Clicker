@@ -2,6 +2,8 @@
 #include "../../header/loading/texture/TextureLoader.h"
 #include "../../header/loading/texture/Texture.h"
 
+#include <string>
+
 std::vector<const GLuint*> Loader::vaos = std::vector<const GLuint*>(), Loader::vbos = std::vector<const GLuint*>(), Loader::textures = std::vector<const GLuint*>();
 
 RawModel Loader::loadToVAO(std::vector<GLfloat> positions, std::vector<GLfloat> textureCoords, std::vector<GLuint> indices) {

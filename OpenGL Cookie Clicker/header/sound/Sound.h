@@ -2,7 +2,7 @@
 
 #include <glm\glm.hpp>
 #include <string>
-#include <SimpleAudioLib\AudioEntity.h>
+#include <EOUL-OpenAL.h>
 
 typedef glm::vec2 Vec2;
 typedef glm::vec3 Vec3;
@@ -14,7 +14,7 @@ class Sound {
 		Vec3 position = { 0, 0, 0 }, velocity = { 0, 0, 0 }, direction = { 0, 0, 0 };
 		float pitch = 1.0f;
 		float gain = 1.0f;
-		SimpleAudioLib::AudioEntity* audio = nullptr;
+		EOUL::OpenAL::AudioEntity* audio = nullptr;
 
 	public:
 

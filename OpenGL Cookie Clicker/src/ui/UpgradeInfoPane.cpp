@@ -6,7 +6,7 @@
 #include "../../header/util/MathHelper.h"
 #include "../../header/Main.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 
 using namespace EOUL::Math;
 

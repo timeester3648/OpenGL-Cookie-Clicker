@@ -1,7 +1,7 @@
 #include "../../header/display/DisplayManager.h"
 #include "../../header/handler/MouseHandler.h"
 
-#include <EOUL\Image.h>
+#include <EOUL.hpp>
 #include <iostream>
 
 #define null NULL
@@ -38,21 +38,21 @@ void DisplayManager::createDisplay() {
 
 	Image icon = Image("res/icon.png");
 
-	images[0].width = icon.width;
-	images[0].height = icon.height;
-	images[0].pixels = icon.getPixels();
+	images[0].width = icon.getWidth();
+	images[0].height = icon.getHeight();
+	images[0].pixels = const_cast<unsigned char*>(icon.getPixels());
 
 	Image icon_small = Image("res/icon_small.png");
 
-	images[1].width = icon_small.width;
-	images[1].height = icon_small.height;
-	images[1].pixels = icon_small.getPixels();
+	images[1].width = icon_small.getWidth();
+	images[1].height = icon_small.getHeight();
+	images[1].pixels = const_cast<unsigned char*>(icon_small.getPixels());
 
 	Image icon_tiny = Image("res/icon_tiny.png");
 
-	images[2].width = icon_tiny.width;
-	images[2].height = icon_tiny.height;
-	images[2].pixels = icon_tiny.getPixels();
+	images[2].width = icon_tiny.getWidth();
+	images[2].height = icon_tiny.getHeight();
+	images[2].pixels = const_cast<unsigned char*>(icon_tiny.getPixels());
 
 	glfwWindowHint(GLFW_SAMPLES, 4);
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);

@@ -7,7 +7,7 @@
 #include "../../header/display/DisplayManager.h"
 #include "../../header/Main.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <iostream>
 
 using namespace EOUL::Math;

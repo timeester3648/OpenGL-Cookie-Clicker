@@ -24,9 +24,8 @@
 #include "../header/shop/Shop.h"
 #include "../header/Main.h"
 
-#define EOUL_USE_GLFW_INPUT
 #define EOUL_USE_ALL
-#include <EOUL.h>
+#include <EOUL.hpp>
 #include <iostream>
 #include <chrono>
 #include <filesystem>
@@ -52,6 +51,8 @@ void init();
 
 int main() {
 
+	atexit(GameSaver::save_game);
+
 	UpgradeLoader::load();
 	Formatter::init();
 	ShopHandler::init();
@@ -73,7 +74,7 @@ int main() {
 	init();
 
 	auto lastTime = clock::now();
-	double ns = 1000000000.0 / (double) GameSettings::fps;
+	double ns = 1000000000.0 / (double) GameSettings::updatePerSecond;
 	double delta = 0;
 
 	while (!glfwWindowShouldClose(DisplayManager::window)) {
@@ -107,7 +108,7 @@ int main() {
 
 #ifndef BUILD_EXE
 
-			if (isKeyDown(DisplayManager::window, GLFW_KEY_ESCAPE)) {
+			if (glfwGetKey(DisplayManager::window, GLFW_KEY_ESCAPE) == GLFW_TRUE) {
 
 				glfwSetWindowShouldClose(DisplayManager::window, GL_TRUE);
 

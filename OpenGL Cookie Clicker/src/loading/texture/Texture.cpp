@@ -1,6 +1,6 @@
 #include <GL\glew.h>
 #include <GLFW\glfw3.h>
-#include <EOUL\Image.h>
+#include <EOUL\Image.hpp>
 #include <string>
 #include <iostream>
 
@@ -20,7 +20,7 @@ Texture::Texture(const char* path, bool repeat, bool font) {
 
 	}
 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.width, image.height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image.getPixels());
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image.getWidth(), image.getHeight(), 0, GL_RGBA, GL_UNSIGNED_BYTE, image.getPixels());
 	glGenerateMipmap(GL_TEXTURE_2D);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR_MIPMAP_LINEAR);

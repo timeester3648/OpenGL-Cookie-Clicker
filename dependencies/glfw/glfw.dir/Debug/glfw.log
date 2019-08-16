@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1875,5): warning : The referenced project 'D:\Coding\C++\C++ Libraries\glfw\glfw\build_vs14_win64\ZERO_CHECK.vcxproj' does not exist.
+  glfw.vcxproj -> D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\x64\Debug\glfw3.lib

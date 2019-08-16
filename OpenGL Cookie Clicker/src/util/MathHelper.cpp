@@ -3,7 +3,7 @@
 #include "../../header/display/render/Renderer.h"
 
 #include <glm\gtx\transform.hpp>
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <iostream>
 
 using namespace EOUL::Math;
@@ -55,7 +55,7 @@ Vec2 MathHelper::glfwToWindowCoord(Vec2 coords, Vec2 scale) {
 
 	Vec4 position = proj * trans * Vec4(0, 0, -1.0, 1.0);
 
-	return { (float) map(position.x, -1.0f, 1.0f, 0, DisplayManager::width), (float) map(position.y, 1.0f, -1.0f, 0, DisplayManager::height) };
+	return { (float) map(position.x, -1.0f, 1.0f, (float) 0, (float) DisplayManager::width), (float) map(position.y, 1.0f, -1.0f, (float) 0, (float) DisplayManager::height) };
 
 }
 
@@ -66,13 +66,13 @@ Vec2 MathHelper::glfwToTextCoord(Vec2 coords, Vec2 scale) {
 
 	Vec4 position = proj * trans * Vec4(0, 0, -1.0, 1.0);
 
-	return { (float) map(position.x, -1.0f, 1.0f, 0, DisplayManager::width), (float) map(position.y, 1.0f, -1.0f, DisplayManager::height, 0) };
+	return { (float) map(position.x, -1.0f, 1.0f, 0.0f, (float) DisplayManager::width), (float) map(position.y, 1.0f, -1.0f, (float) DisplayManager::height, 0.0f) };
 
 }
 
 Vec2 MathHelper::windowToGLFWCoord(Vec2 coords) {
 
-	return { (float) map(coords.x, 0, DisplayManager::width, -1, 1), (float) map(coords.y, 0, DisplayManager::height, 1, -1) };
+	return { (float) map(coords.x, (float) 0, (float) DisplayManager::width, (float) -1, (float) 1), (float) map(coords.y, (float) 0, (float) DisplayManager::height, (float) 1, (float) -1) };
 
 }
 
@@ -84,6 +84,6 @@ Vec2 MathHelper::windowToGLFWSize(Vec2 coords) {
 
 Vec2 MathHelper::textToGLFWCoord(Vec2 coords) {
 
-	return { (float) map(coords.x, 0, DisplayManager::width, -1, 1), (float) map(coords.y, 0, DisplayManager::height, -1, 1) };
+	return { (float) map(coords.x, (float) 0, (float) DisplayManager::width, (float) -1, (float) 1), (float) map(coords.y, (float) 0, (float) DisplayManager::height, (float) -1, (float) 1) };
 
 }

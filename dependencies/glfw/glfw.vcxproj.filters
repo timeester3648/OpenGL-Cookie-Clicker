@@ -1,86 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\context.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\init.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\egl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\input.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\monitor.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\input.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\vulkan.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\window.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\osmesa_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_init.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\vulkan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_joystick.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\wgl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_monitor.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_time.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_joystick.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_thread.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_window.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_thread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\wgl_context.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_time.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\egl_context.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\osmesa_context.c">
+    <ClCompile Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\internal.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\egl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\mappings.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\srcld_vs14_win64\src\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\build_vs14_win64\src\glfw_config.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\srclude\GLFW\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\include\GLFW\glfw3.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\srclude\GLFW\glfw3native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_platform.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\mappings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\win32_joystick.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\osmesa_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\wgl_context.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\egl_context.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\wgl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\osmesa_context.h">
+    <ClInclude Include="D:\Coding\C++\C++ Workspace Visual Studio\OpenGL Minecraft\dependencies\glfw\src\win32_joystick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="D:\Coding\C++\C++ Libraries\glfw\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

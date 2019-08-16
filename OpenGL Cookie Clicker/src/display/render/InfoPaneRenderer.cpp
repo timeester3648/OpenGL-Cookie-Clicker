@@ -2,7 +2,7 @@
 #include "../../../header/util/MathHelper.h"
 #include "../../../header/display/DisplayManager.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 
 using namespace EOUL::Math;
 

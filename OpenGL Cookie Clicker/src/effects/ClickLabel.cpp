@@ -6,7 +6,7 @@
 #include "../../header/handler/CookieHandler.h"
 #include "../../header/handler/FontHandler.h"
 
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 
 using namespace EOUL::Math;
 

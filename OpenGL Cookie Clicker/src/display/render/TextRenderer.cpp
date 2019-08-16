@@ -8,7 +8,7 @@
 #include "../../../header/Main.h"
 
 #include <freetype-gl\freetype-gl.h>
-#include <EOUL\Maths.h>
+#include <EOUL\Maths.hpp>
 #include <vector>
 #include <Windows.h>
 

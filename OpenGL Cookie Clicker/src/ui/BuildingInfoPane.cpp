@@ -9,29 +9,21 @@
 #include "../../header/handler/ShopHandler.h"
 #include "../../header/Main.h"
 
-#define EOUL_USE_GLFW_INPUT
+BuildingInfoPane::BuildingInfoPane(std::string title, std::string description, Vec2 icon_offset, int index) : StaticImage(Vec2{ (.84 + (.07f - .01875f * .5f) * 2.0f * .75f) - .35f - ((.07f - .01875f * .5f) * 6.0f) - .01875f, 0.0f }, Vec2{ (.07f - .01875f * .5f) * 6.0f, (.07f - .01875f * .5f) * 2.0f }, ModelHandler::getModelById(13)), index(index) {
 
-#include <EOUL\Maths.h>
-#include <EOUL\Utils.h>
-
-using namespace EOUL::Math;
-using namespace EOUL::Util;
-
-BuildingInfoPane::BuildingInfoPane(std::string title, std::string description, Vec2 icon_offset, int index) : StaticImage({ (.84 + (.07f - .01875f * .5f) * 2.0f * .75f) - .35f - ((.07f - .01875f * .5f) * 6.0f) - .01875f, 0.0f }, { (.07f - .01875f * .5f) * 6.0f, (.07f - .01875f * .5f) * 2.0f }, ModelHandler::getModelById(13)), index(index) {
-
-	Vec2 icon_scale = { .07f - .01875f * .5f, .07f - .01875f * .5f };
+	Vec2 icon_scale = Vec2{ .07f - .01875f * .5f, .07f - .01875f * .5f };
 
 	this->icon = new StaticImage(this->position - (this->scale * Vec2(1.0f, -1.0f)) + (icon_scale * Vec2(1.1f, -1.2f)), icon_scale, ModelHandler::getModelById(7), 0.0f, icon_offset);
-	this->title = new Label(title, MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, .35f)), { 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 12.0f));
-	this->price = new Label(Formatter::formatCookies(ShopPrices::getPrice(this->index)), MathHelper::glfwToTextCoord(this->icon->position + (this->scale * Vec2(1.75f, 0.2f)), { 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 13.0f), { 0.0f, 1.0f, 0.0f, 1.0f }, TextRenderer::Alignment::Right);
-	this->label = new Label("[owned: " + std::to_string(*PlayerData::amounts[this->index]) + "]", MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, -.2f)), { 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 10.0f));
-	this->description = new Label(description, MathHelper::glfwToTextCoord(this->icon->position - Vec2(this->icon->scale.x - .03f, .1f), { 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 10.0f), { 1.0f, 1.0f, 1.0f, 1.0f }, TextRenderer::Alignment::Left, 250.0f);
+	this->title = new Label(title, MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, .35f)), Vec2{ 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 12.0f));
+	this->price = new Label(Formatter::formatCookies(ShopPrices::getPrice(this->index)), MathHelper::glfwToTextCoord(this->icon->position + (this->scale * Vec2(1.75f, 0.2f)), Vec2{ 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 13.0f), Vec4{ 0.0f, 1.0f, 0.0f, 1.0f }, TextRenderer::Alignment::Right);
+	this->label = new Label("[owned: " + std::to_string(*PlayerData::amounts[this->index]) + "]", MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, -.2f)), Vec2{ 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 10.0f));
+	this->description = new Label(description, MathHelper::glfwToTextCoord(this->icon->position - Vec2(this->icon->scale.x - .03f, .1f), Vec2{ 1.0f, 1.0f }), FontHandler::getFont("Merriweather-Black", 10.0f), Vec4{ 1.0f, 1.0f, 1.0f, 1.0f }, TextRenderer::Alignment::Left, 250.0f);
 	this->money_icon = new StaticImage((MathHelper::textToGLFWCoord(this->price->position - Vec2(this->price->font->getWidth(Formatter::formatCookies(ShopPrices::getPrice(this->index, 1), 3)) * .55f, 0.0f)) - Vec2(-.01f, 1.5f * .0175f)), Vec2(.0175f, .0175f), ModelHandler::getModelById(8));
 
-	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(1.0f, 0.0f)), { .01375f, this->scale.y }, ModelHandler::getModelById(14)));
-	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(-1.0f, 0.0f)), { .01375f, this->scale.y }, ModelHandler::getModelById(14)));
-	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(0.0f, 1.0f)), { .01375f, this->scale.x * 1.04f }, ModelHandler::getModelById(9), 90.0f));
-	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(0.0f, -1.0f)), { .01375f, this->scale.x * 1.04f }, ModelHandler::getModelById(9), 90.0f));
+	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(1.0f, 0.0f)), Vec2{ .01375f, this->scale.y }, ModelHandler::getModelById(14)));
+	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(-1.0f, 0.0f)), Vec2{ .01375f, this->scale.y }, ModelHandler::getModelById(14)));
+	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(0.0f, 1.0f)), Vec2{ .01375f, this->scale.x * 1.04f }, ModelHandler::getModelById(9), 90.0f));
+	this->borders.push_back(new StaticImage(this->position - (this->scale * Vec2(0.0f, -1.0f)), Vec2{ .01375f, this->scale.x * 1.04f }, ModelHandler::getModelById(9), 90.0f));
 
 }
 
@@ -61,11 +53,11 @@ void BuildingInfoPane::setPos(Vec2 position) {
 
 	size_t amount = 1;
 
-	if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_CONTROL)) {
+	if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_REPEAT) {
 
 		amount = 10;
 
-	} else if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_SHIFT)) {
+	} else if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_REPEAT) {
 
 		amount = 100;
 
@@ -78,10 +70,10 @@ void BuildingInfoPane::setPos(Vec2 position) {
 	this->icon->position += diff;
 	this->money_icon->position += diff;
 
-	this->title->position = MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, .35f)), { 1.0f, 1.0f });
-	this->price->position = MathHelper::glfwToTextCoord(this->icon->position + (this->scale * Vec2(1.75f, 0.2f)), { 1.0f, 1.0f });
-	this->label->position = MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, -.2f)), { 1.0f, 1.0f });
-	this->description->position = MathHelper::glfwToTextCoord(this->icon->position - Vec2(this->icon->scale.x - .03f, .1f), { 1.0f, 1.0f });
+	this->title->position = MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, .35f)), Vec2{ 1.0f, 1.0f });
+	this->price->position = MathHelper::glfwToTextCoord(this->icon->position + (this->scale * Vec2(1.75f, 0.2f)), Vec2{ 1.0f, 1.0f });
+	this->label->position = MathHelper::glfwToTextCoord(this->icon->position + (this->icon->scale * Vec2(1.1f, -.2f)), Vec2{ 1.0f, 1.0f });
+	this->description->position = MathHelper::glfwToTextCoord(this->icon->position - Vec2(this->icon->scale.x - .03f, .1f), Vec2{ 1.0f, 1.0f });
 	this->money_icon->position.x = ((MathHelper::textToGLFWCoord(this->price->position - Vec2(this->price->font->getWidth(Formatter::formatCookies(ShopPrices::getPrice(this->index, amount), 3)), 0.0f)) - Vec2(-.04f, 1.5f * .0175f))).x;
 
 	for (auto& panel : this->borders) {
@@ -96,11 +88,11 @@ void BuildingInfoPane::update() {
 
 	size_t amount = 1;
 
-	if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_CONTROL)) {
+	if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_CONTROL) == GLFW_REPEAT) {
 
 		amount = 10;
 
-	} else if (isKeyDown(DisplayManager::window, GLFW_KEY_LEFT_SHIFT)) {
+	} else if (glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS || glfwGetKey(DisplayManager::window, GLFW_KEY_LEFT_SHIFT) == GLFW_REPEAT) {
 
 		amount = 100;
 
@@ -110,11 +102,11 @@ void BuildingInfoPane::update() {
 
 	if (PlayerData::cookies >= ShopPrices::getPrice(this->index, amount)) {
 
-		this->price->color = { .4f, 1.0f, .4f, 1.0f };
+		this->price->color = Vec4{ .4f, 1.0f, .4f, 1.0f };
 
 	} else {
 
-		this->price->color = { 1.0f, .4f, .4f, 1.0f };
+		this->price->color = Vec4{ 1.0f, .4f, .4f, 1.0f };
 
 	}
 
