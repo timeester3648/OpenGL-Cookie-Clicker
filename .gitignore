@@ -35,5 +35,8 @@
 **.vs/
 **x64/
 
+# exclude test game save
+*.dat
+
 # include the library .lib files
 !lib/*.lib
